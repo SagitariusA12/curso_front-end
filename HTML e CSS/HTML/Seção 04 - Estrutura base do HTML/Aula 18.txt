@@ -1,0 +1,16 @@
+Estrutura Base do HTML:
+
+DOCTYPE -> Informa a versão do HTML
+html -> Envolve todo o código HTML
+head -> Toda a parte de configuração do site, como a importação do CSS para o arquivo HTML (meta tags)
+body -> Onde fica toda a parte visível do site
+
+Exemplo:
+<!DOCTYPE html>
+<html>
+	<head>
+		<tile>HTML Fundamentos</title>
+	</head>
+	<body>
+	</body>
+</html>
