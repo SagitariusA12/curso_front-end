@@ -1,0 +1,10 @@
+Anatomia das Tags:
+
+O elemento principal da linguagem de marcação do HTML.
+Cada tag tem um comportamento definido (mas pode ser alterado com CSS) e na 
+maior parte dos casos, inicia-se como:
+
+    <p> [CONTEÚDO] </p> ---- Fechamento da tag
+	|
+	 - Abertura da tag
+		
