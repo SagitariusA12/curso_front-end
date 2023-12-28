@@ -1,0 +1,6 @@
+Títulos:
+
+- Separar seções 
+- h* vai do 1 ao 6 e exprime o grau de importância na página
+- Ideal 1 por página
+- Conexão com a ideia do site

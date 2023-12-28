@@ -1,0 +1,7 @@
+Comentários no HTML:
+
+- Não é exibido no navegador 
+- Explicar como funciona e como está fazendo
+- Para organizar o código
+
+Atalho: Ctrl + :

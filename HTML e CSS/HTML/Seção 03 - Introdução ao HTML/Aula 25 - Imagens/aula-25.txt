@@ -1,0 +1,6 @@
+Imagens:
+
+- Tah <img>
+- Caminho relativo da imagem no atributo "src"
+- Fica na pastas "assets"
+- Atributo "alt" para descrever imagens e rankear melhor o seu site

@@ -1,0 +1,6 @@
+Tags sem conteúdo:
+
+- Quebrar linha: <br/>
+- Linha horizontal: <hr/>
+
+Em suma, dev-se utilizar o CSS para isso. As tags vão cair no desuso.

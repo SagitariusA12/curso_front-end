@@ -1,0 +1,7 @@
+Atributos:
+
+- Dar novas funcionalidade as tags
+- src é um exemplo usado para pegar o caminho relativo de um arquivo, geralmente o arquivo fica 
+no "assets"
+- <a href="https://google.com">Google</a>
+- target="_blank" abre uma nova guia para a tag <a>

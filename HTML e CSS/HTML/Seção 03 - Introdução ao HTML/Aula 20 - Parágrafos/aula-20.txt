@@ -1,0 +1,4 @@
+Parágrafos:
+
+- Textos maiores
+- Cada nova linha é um novo parágrafo
