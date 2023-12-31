@@ -1,0 +1,5 @@
+Listas não ordenadas:
+
+- Servem para várias coisas, inclusive menu
+- Não ordenadas são criadas pela tag <ul>
+- Cada item é usada através da tag <li>

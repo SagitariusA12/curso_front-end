@@ -1,0 +1,5 @@
+Tag DIV:
+
+- Usada para separar seções
+- Podemos criar elementos menores
+- Encapsular elementos que estão conectados

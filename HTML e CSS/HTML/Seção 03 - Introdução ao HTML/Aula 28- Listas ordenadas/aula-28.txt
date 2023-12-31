@@ -1,0 +1,4 @@
+Listas ordenadas:
+
+- Quanda há um passo a ser seguida
+- tag <ol> e itens <li>

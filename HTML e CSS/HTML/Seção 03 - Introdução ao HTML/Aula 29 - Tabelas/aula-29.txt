@@ -1,0 +1,18 @@
+Tabelas:
+
+- Exibir dados padronizados
+- <tr> cria um nova linha
+- <th> é para o cabeçalho
+- <td> é onde fica os dados
+
+
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+    </tr>
+    <tr>
+        <td>Nome</td>
+        <td>Idade</td>
+    </tr>
+</table>
