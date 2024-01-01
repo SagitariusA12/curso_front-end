@@ -1,0 +1,3 @@
+Criar toda a estrutura do HMLT com apenas um comando:
+
+! + TAB

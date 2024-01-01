@@ -1,0 +1,8 @@
+Instruções:
+
+1. Crie um novo arquivo HTML e nomeio como desejar
+2. Utiliza a incialização rápida da estrutura HTML
+3. Crie um título que descreva uma imagem
+4. Insira uma imagem
+5. Crie uma parágrafo que fale desta imagem
+6.  Por fim, cite três elementos presentes nessa imagem
