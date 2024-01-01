@@ -1,0 +1,3 @@
+Adcionar várias regras:
+
+- Várias regras num só elemento

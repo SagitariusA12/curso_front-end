@@ -1,0 +1,6 @@
+Anatomia do CSS:
+
+<elemento>{
+    <propriedade>: <valor>;
+    color: red;
+}

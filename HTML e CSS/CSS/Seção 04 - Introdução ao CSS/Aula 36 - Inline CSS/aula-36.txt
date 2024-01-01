@@ -1,0 +1,5 @@
+Inline CSS:
+
+- Já selecionar o próprio elemento
+
+<h1 style="color: red;">Mudar cor</h1>

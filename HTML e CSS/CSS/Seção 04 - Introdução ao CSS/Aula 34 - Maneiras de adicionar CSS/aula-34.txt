@@ -1,0 +1,5 @@
+Maneiras de adicionar CSS:
+
+- Inline: pelo atributo "style" no elemento
+- Internal: no head do documento HTML
+- External: um arquivo externo e depois é adcionar no head do HTML
