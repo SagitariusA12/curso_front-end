@@ -1,0 +1,10 @@
+Internal CSS:
+
+- É feito no <head> da página
+- Entre as tags <style>
+- Precisa selecionar o elemento
+
+
+<elemento>{
+    
+}

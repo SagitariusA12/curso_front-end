@@ -1,0 +1,6 @@
+Ordem do CSS:
+
+
+- Inline > Internal > External > Estilo do Navegador
+- No mesmo elemento
+- Ordem de leitura de cima para baixo

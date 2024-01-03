@@ -1,0 +1,4 @@
+Múltiplos arquivos:
+
+- Na tag do arquivo <head>
+- Os últimos arquivos têm mais importância

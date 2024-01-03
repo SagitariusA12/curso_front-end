@@ -1,0 +1,4 @@
+Arquivo External CSS:
+
+- Criar arquivo .css na página "assets" na página "css"
+- Importar pela tag <link>
