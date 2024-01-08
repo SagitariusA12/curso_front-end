@@ -1,0 +1,30 @@
+Classes e ID's:
+
+
+- São atributos do HTML, mas são diretamente ligado ao Classes
+- Podemos especificar elementos
+- ID's para um único elemento e classes para um conjunto de elementos
+
+
+CLASSES:
+
+
+- São inseridas através de um atributos HTML
+- Valor do atributo é a nossa classes
+
+.<nome_da_classe>{
+    color: blue;
+}
+
+<p class="<nome_da_classe>">Alguma coisa</p>
+
+
+ID's:
+
+
+- Qualquer nome, mas deve ser único
+#<qualquer_nome>{
+    padding-top: 10px;
+}
+
+<p class="<qualquer_nome>">Alguma coisa</p>

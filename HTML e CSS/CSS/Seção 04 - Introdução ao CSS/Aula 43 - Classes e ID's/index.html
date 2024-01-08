@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS External</title>
+    <!-- CSS internal -->
+    <style>
+        p{
+            color: gold;
+            font-size: 40px;
+        }
+    </style>
+    <!-- External CSS -->
+    <!-- Cascading Style Sheets -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <link rel="stylesheet" href="../assets/css/lists.css">
+</head>
+<body>
+    <!-- Inline CSS -->
+    <h1 style="color: red;">Mudar cor com o Inline</h1>
+    <h1 style="color: red;">Outro título</h1>
+
+    <!-- Múltiplas regras -->
+    <h1 style="color: purple; font-size: 40px; border-bottom: 1px solid red">
+        Mudar cor e tamanho fonte
+    </h1>
+
+    <!-- Internal CSS -->
+    <p>Eu fui estilizado pelo INTERNAL</p>
+
+    <!-- External CSS -->
+    <h3>Meu título verde</h3>
+
+    <!-- Ordem do CSS -->
+    <p style="color: red">Ordem do CSS</p>
+    <p>Ordem do CSS</p>
+
+    <!-- Múltiplos arquivos CSS -->
+    <ul>
+        <li>Banana</li>
+        <li>Maçã</li>
+        <li>Tomate</li>
+    </ul>
+
+    <!-- Classes -->
+    <p class="paragraph">Algum texto</p>
+    <p class="paragraph">Algum texto</p>
+    <p class="paragraph">Algum texto</p>
+
+    <!-- ID -->
+    <h1 id="exclusive-title">Este é um título com ID</h1>
+
+    <!-- Ordem do CSS -->
+    <h2 id="algum-titulo" class="titulo">Algum texto 1</h2>
+    <h2 class="titulo">Algum texto 2</h2>
+    <h2>Algum texto 3</h2>
+</body>
+</html>

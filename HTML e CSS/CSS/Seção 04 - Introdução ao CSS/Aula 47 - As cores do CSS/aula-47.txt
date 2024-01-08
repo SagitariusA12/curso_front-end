@@ -1,0 +1,51 @@
+Nomes das cores:
+
+- Nomes das cores: blue, red, green...
+- RGB: RED, GREEN, BLUE configuramos a tornalida de 0-255 
+- Hexadecimal. União de letras e números. de 0-9 e A-F
+- HSL: HEU, SATURATION, LIGTHNESS. De 0-255, 0-100%, 0-100%
+
+- RAKING: HEXADECIMAL > RGB > HSL > NOMES DE COR
+
+
+NOMES DAS CORES:
+
+- Limita apenas as cores existentes
+- Nome real da cor:
+
+color: blue
+
+
+Hexadecimal:
+
+- Mais utilizada
+- 6 digitos precidos por #
+- # 00(RED)00(GREEN)00(BLUE)
+- 0-9 e A-F
+- 0 mais escuro e F mais claro
+
+    MANEIRAS SIMPLIFICADA:
+    - Se a cor for repitida podemos simplificar:
+    - #FFFFFF -> #FFF
+    - #112233 -> #123
+
+
+
+RGB:
+
+
+- REG/GREEN/BLUE
+- Valor de 0-255
+- 0 mais claro e 255 mais escuro
+- rgb(0-255, 0-255, 0-255)
+
+    OPACIDADE RGBA:
+    - 0-1
+    - 0 transparente e 1 visível
+    - rgba(0-255, 0-255, 0-255, 0-1)
+
+
+HSL:
+- Mwnor usada
+- hsl(0-255, 0-100%, 0-100%)
+- HUE, SATURATION, LIGTHNESS

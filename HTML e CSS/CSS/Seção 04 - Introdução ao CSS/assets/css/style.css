@@ -9,3 +9,73 @@ h3{
 p{
     color: blueviolet;
 }
+
+
+/* Classes */
+.paragraph{
+    background-color: #000;
+    color: aqua;
+    padding: 5px;
+
+}
+
+/* ID */
+#exclusive-title{
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+    font-size: 40px;
+}
+
+/* Ordem das regras */
+h2{
+    border-bottom: 2px solid red;
+}
+
+.titulo{
+    border-bottom: 3px solid blue;
+}
+
+#algum-titulo{
+    border-bottom: 4px solid green;
+}
+
+/* Nome de core */
+.color-name{
+    color: crimson;
+}
+
+/* Hexadecimal */
+.hex{
+    color: #55A398;
+}
+
+.hex-2{
+    color: #00ff00;
+}
+
+.simple-hex-2{
+    color: #AA55FF;
+}
+
+/* RGB */
+.rgb{
+    color: rgb(255, 0, 0)
+}
+
+.mixed-rgb{
+    color: rgb(190, 15, 123)
+}
+
+.rgba{
+    color: rgba(100, 199, 45, 0.36)
+}
+
+/* HSL */
+.hsl{
+    color: hsl(100, 20%, 50%)
+}
+
+.hsl-2{
+    color: hsl(232, 67%, 25%)
+}
