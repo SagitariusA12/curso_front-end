@@ -1,0 +1,24 @@
+Border:
+
+
+- Fica entre o PADDING e o MARGIN
+-  PADDING preenche o espaços interno e o MARGIN o externo
+- Propósito decorativo
+- regra: tamanho, aspecto e cor
+- border: 5px solid blue;
+
+
+BORDAS INDIVIDUAIS:
+
+- Em lados específicos:
+- regra: border-TOP
+                RIGTH
+                BOTTOM
+                LEFT
+
+
+ARREDONDAMENTO DE BORDA:
+
+- Arredondar os cantos de um elemento
+- border-radius: 5px
+- Não é necessário e regra BORDER para o BORDER-RADIUS existir

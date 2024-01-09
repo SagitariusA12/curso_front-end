@@ -4,6 +4,7 @@ Classes e ID's:
 - São atributos do HTML, mas são diretamente ligado ao Classes
 - Podemos especificar elementos
 - ID's para um único elemento e classes para um conjunto de elementos
+- Ordem de importância: ID > CLASSE > TAG > Estilo do Navegador
 
 
 CLASSES:

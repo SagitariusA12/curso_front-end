@@ -1,0 +1,33 @@
+Padding:
+
+
+- Espaçamento interno entre o conteúdo e a borda do elemento
+- Texto com respiro
+- px é bom para elementos fixos, para responsivos existem outros melhores
+
+
+LADOS INDIVIDUAIS:
+
+
+- A regra é: padding-TOP
+                     RIGTH
+                     BOTTOM
+                     LEFT
+
+
+SHORTHAND PROPERTIES:
+
+- Permite adicionar todas as regras de padding em apenas uma regra:
+- padding: 10px(TOP) 5px(RIGTH) 12px(BOTTOM) 20px(LEFT) 
+- padding: 20px(TOP-BOTTOM) 35px(RIGTH-LEFT)
+
+
+PADDING e WIDTH:
+
+
+- Se adicionarmos um padding de 25px a um elemento de 200px. No fim, 
+ele terá 250 px e não 200px
+
+- Para isso usarmos o BOX-SIZING:
+- box-sizing: border-box
+- Respeitará o tamanho do elemento e fará o cálculo para inserir o padding no tamnanho exato

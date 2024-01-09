@@ -1,0 +1,21 @@
+Imagem no background
+
+
+- Imagem nos fundos dos elementos
+- background-image: url(<caminho_relativo_da_img>)
+- Para melhorar a visualização temos duas regras para centralizar a imagem:
+
+1. Regra:
+- background-position: center;
+
+2. Regra:
+- background-size: cover:
+
+
+Para vários elementso com as mesma propriedade, podemos fazer:
+.<clase1>,
+.<clase2>,
+.<clase3>,
+.<clase4>,{
+    color: red;
+}

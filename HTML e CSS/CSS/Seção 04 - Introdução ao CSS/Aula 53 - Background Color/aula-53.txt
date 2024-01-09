@@ -1,0 +1,13 @@
+Background-color:
+
+
+- Quase todo elemento possui um Background e podemos mudar a cor dele
+- Todas as regrs de cores podem ser aplicadas no Background
+- As regras de cores podem ser utilizadas juntas
+- regras: background-color: cor;
+
+.bg{
+    background-color: #000;
+    color: yellow;
+    font-size: 40px
+}

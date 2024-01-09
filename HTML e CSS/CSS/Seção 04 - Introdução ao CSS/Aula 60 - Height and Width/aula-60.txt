@@ -1,0 +1,7 @@
+Height e Width:
+
+
+- Núcleo do Box-Model e o conteúdo
+- Podemos alterar as duas propriedades 
+- Alguns elmentos com (display: block) ocupam toda a largura da página (width: 100%)
+- height é 0 por padrão

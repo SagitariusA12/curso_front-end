@@ -1,0 +1,8 @@
+Background Opacity:
+
+
+- A regra é OPACITY
+- valores variam de 0 a 1
+- Podemos mudar a opacidade de elementos dentro de outros elementos
+- Se não quer aplicar opacidade nos elementos filhos, utilize o RGBA
+ao invés de OPACITY (Apenas na cor de fundo)

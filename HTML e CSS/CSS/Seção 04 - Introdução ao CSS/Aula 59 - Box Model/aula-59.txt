@@ -1,0 +1,17 @@
+Box Model:
+
+
+- Box model está presente em quase todo elemento no HTML
+- Consiste em quatro propriedades: Altura e Largura,
+                                   PADDING,
+                                   BORDER,
+                                   MARGIN
+
+
+- Todos podem ser alterados com CSS:
+
+
+    MARGIN
+    BORDER
+    PADDING
+    ALTURA E LARGURA -> Onde fica o parte visível do elemento
