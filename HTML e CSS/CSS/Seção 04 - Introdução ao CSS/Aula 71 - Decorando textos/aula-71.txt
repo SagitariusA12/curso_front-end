@@ -1,0 +1,6 @@
+Text Decoration
+
+
+- Adicionar efeito
+- underline ou linha que corta letras
+- Tirar o underline da tag <a></a>  -> text-decoration: none;

@@ -1,0 +1,14 @@
+Box model:
+
+
+- Definir width e height
+- padding -> Espamentos interno
+- Border -> Decorativo
+- margin -> Espaçamento externo e afastat elementos dos outros
+
+
+Também podemos ter:
+outiline que é depois da margem e tem o a mesma regras
+outiline: 1px solid red;
+
+border: none;

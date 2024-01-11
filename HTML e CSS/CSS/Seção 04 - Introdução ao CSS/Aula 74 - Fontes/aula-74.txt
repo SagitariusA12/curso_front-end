@@ -1,0 +1,31 @@
+Fontes:
+
+
+- Podemos alterar as Fontes
+- font-family: Helvetica;
+- Fontes disponíveis nos navegadores e no Google Fontes
+
+Atalho: Shift + Alt + (seta para baixo)  -> Copia
+
+
+Estilo da fonte:
+
+- Mudar aspecto das letras
+- font-style: normal, italic ou oblique
+
+
+FONTE-WEIGHT:
+
+
+- Texto mais grosso ou mais fino
+- Valores de 100 a 900 (depende da fonte)
+- Ou palavras como "bold(600)"
+- 300 ou 400 é o normal
+
+
+
+FONT-SIZE:
+
+- Deixa fonte pequena ou grande
+- 16px default para <>
+- Apenas mudar tamanho com CSS

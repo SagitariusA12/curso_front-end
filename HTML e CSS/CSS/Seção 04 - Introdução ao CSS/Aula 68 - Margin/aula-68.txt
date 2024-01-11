@@ -1,0 +1,6 @@
+Margin:
+
+
+- A propriedade de margin é responsáveç pelo espaçamento externo
+- Podemos aplicar as regras como fizemos com o padding
+- Lados individuais e shorthand

@@ -1,0 +1,6 @@
+Text Transform:
+
+
+- Podemos alterar como o texto é visto (uppercase) ou (lowercase)
+- Não escreva em CASPLOCK
+- text-trnaform: uppercase ou lowercase

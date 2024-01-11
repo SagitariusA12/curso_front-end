@@ -1,0 +1,10 @@
+Alinhamento de Texto
+
+
+- Pode ser alterado em várias direções
+- Padrão na esquerda
+- text-align: left (default)
+              rigth
+              center
+
+              

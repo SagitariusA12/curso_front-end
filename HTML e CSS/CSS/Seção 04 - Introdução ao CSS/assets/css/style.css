@@ -233,3 +233,135 @@ h2{
     padding: 15px;
     border-radius: 25px;
 }
+
+
+/* Margin */
+.margin{
+    margin: 10px;
+    background-color: #222;
+    color: #FFF;
+}
+
+.margin-top{
+    margin-top: 50px;
+    background-color: #222;
+    color: #FFF;
+    padding: 10px;
+}
+
+
+.margin-shorthand{
+    background-color: #666;
+    margin: 5px 10px 15px 20px
+}
+
+/* Box-model */
+.box-model{
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #845;
+    border-radius: 7px;
+    width: 200px;
+    height: 400px
+}
+
+/* Alinhamentos de texto */
+.text-align{
+    text-align: right;
+}
+
+.container-center{
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+}
+
+/*  Text decoration */
+.underline{
+    text-decoration: underline;
+}
+
+.line-trough{
+    text-decoration: line-through;
+}
+
+.remove-underline{
+    text-decoration: none;
+    color: red;
+}
+
+/* Text transform */
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+/* Espaçamento entre as letras */
+.spacing{
+    letter-spacing: 10px;
+}
+
+/*  Fontes */
+.serif{
+    font-family: georgia;
+}
+
+.sans-serif{
+    font-family: Helvetica;
+}
+
+.monospace{
+    font-family: monospace;   
+}
+
+.cursive{
+    font-family: cursive; 
+}
+
+.fantasy{
+    font-family: fantasy; 
+}
+
+/*  Estilos de fonte */
+.normal{
+    font-style: normal;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.oblique{
+    font-style: oblique;
+}
+
+
+/*  Fontes weight */
+.thin, .bold, .bolder{
+    font-family: Helvetica;
+}
+
+.thin{
+    font-weight: 100;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bolder{
+    font-weight: 900;
+}
+
+
+/* Font size */
+.small{
+    font-size: 8px
+}
+
+.big{
+    font-size: 80px
+}
