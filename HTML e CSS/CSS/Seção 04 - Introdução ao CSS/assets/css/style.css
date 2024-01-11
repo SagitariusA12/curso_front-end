@@ -365,3 +365,140 @@ h2{
 .big{
     font-size: 80px
 }
+
+/* Display */
+.inline-box{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(83, 214, 50);
+    margin: 10px;
+    text-align: center;
+}
+
+.block{
+    display: block;
+    background-color: #55A398;
+    margin: 10px
+}
+
+/* Escodendo elementos */
+.invisible{
+    display: none;
+}
+
+/* Position */
+.static{
+    position: static;
+    background-color: #391;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
+
+/* Relative */
+.relative{
+    position: relative;
+    background-color: #224;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+
+/* Absolute */
+.absolute{
+    position: absolute;
+    background-color: rgb(118, 131, 1);
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+/* Relative com Absolute */
+.relative-container{
+    position: relative;
+    margin-top: 120px;
+    color: #fff;
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+}
+
+.absolute-1{
+    position: absolute;
+    background-color: rgb(196, 14, 75);
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2{
+    position: absolute;
+    background-color: rgb(11, 159, 185);
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Fixed */
+.fixed{
+    position: fixed;
+    margin-top: 120px;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(76, 0, 255);
+    top: 50px;
+    right: 100px;
+}
+
+/* Sticky */
+.sticky{
+    position: sticky;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 238, 0);
+    top: 10px;
+}
+
+
+/* Z index */
+.absolute-3,
+.absolute-4,
+.absolute-5{
+    position: absolute;
+    background-color: rgb(11, 159, 185);
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+}
+
+.absolute-3{
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+.absolute-4{
+    top: 10px;
+    left: 10px;
+    background-color: rgb(185, 11, 11);
+    z-index: 10;
+}
+
+.absolute-5{
+    top: 20px;
+    left: 20px;
+    background-color: rgb(185, 153, 11);
+    z-index: 13;
+}
