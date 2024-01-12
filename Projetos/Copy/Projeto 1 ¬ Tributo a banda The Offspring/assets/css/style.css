@@ -1,0 +1,107 @@
+html{
+    background-color: #ddd;
+    font-family: Helvetica;
+}
+
+#container{
+    background-color: #fff;
+    position: relative;
+    max-width: 1100px;
+    height: 2702px;
+    padding: 20px 50px;
+    margin: 50px auto; 
+}
+
+.heard{
+    text-align: center;
+    margin: 20px;
+}
+
+.main-title{
+    font-size: 40px
+}
+
+.main-paragraph{
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+img {
+    -overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.main-image{
+    text-align: center;
+    border-bottom: 1px dashed #ddd;
+}
+
+.about{
+    height: auto;
+    width: 100%;
+    margin: 25px auto;
+    border-bottom: 1px dashed #ddd
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.quotes-container{
+    width: auto;
+    height: auto;
+    background-color: #ddd;
+    padding: 30px 10px;
+    margin-bottom: 20px;
+}
+
+.quotes{
+    font-size: 30px;
+    font-weight: bold;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.italico{
+    font-style: italic;
+}
+
+.curiosities-container{
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+    padding: 20px;
+}
+
+.curiosities-container ul li{
+    line-height: 30px;
+}
+
+.finally{
+    width: auto;
+    height: auto;
+    background-color: #ddd;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.finally div{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 5px; 
+    font-weight: bold; 
+    margin: 30px 40px;
+}
+.top{
+    margin-top: 55px;
+}
+
+.finally-image{
+    text-align: center;
+}
+
+.finally-image p{
+    font-weight: bold;
+    font-family: Helvetica;
+}
