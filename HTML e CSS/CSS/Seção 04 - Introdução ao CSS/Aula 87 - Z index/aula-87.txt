@@ -1,0 +1,6 @@
+Z-INDEX:
+
+
+- Mesma posições ou se eles coincidirem na página, podemos sobrebor qual será exibido
+- Maior valor z-index, este elemento será exibido
+- Se for igual ORDEM do HTML prevalece

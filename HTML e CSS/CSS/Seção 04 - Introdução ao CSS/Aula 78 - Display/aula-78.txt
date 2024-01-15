@@ -1,0 +1,15 @@
+Display:
+
+
+- Alguns elementos considerados de bloco e outros inline
+- <di></di>  -> Block && <span></span> -> inline
+- "display" podemos mudar o comportamento do elemento, tanto para inline ou block ou outros...
+- BLOCK ocupa a linha toda (width=100%)
+- INLINE é um ao lado do outros
+
+
+ESCONDENDO O ELEMETNO:
+
+- display: none;
+- O elemento ainda no HTML, mas não mostra no HTML                                    
+

@@ -1,0 +1,12 @@
+Elemento Select:
+
+
+<select name="book" multiple>
+    <option value="r" selected>READ</option>
+    <option value="W">WRITE</option>
+</select>
+
+- Atributo name
+- Atributo selected: Iniciar com uma opção selecionada
+- multiple permite você escolher várias opções segurando o Ctrl ou SHIFT
+

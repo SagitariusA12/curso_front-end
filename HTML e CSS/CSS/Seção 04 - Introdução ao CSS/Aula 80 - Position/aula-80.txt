@@ -1,0 +1,53 @@
+Positions:
+
+
+- Poscionar elementos na tela
+- Valor padrão é static, e é sequencial
+- position: static, relative, absolute...
+
+T - TOP
+R - RIGHT
+B - BOTTOM
+L - LEFT
+(T-R-B-L)
+
+STATIC:
+
+- O valor não faz nada
+- static segue o fluxo do elemento e não aceita (T-R-B-L)
+
+
+RELATIVE:
+
+- Mais possibilidade que o static
+- Agora o (T-R-B-L) move o elemento pela tela
+- O elemento segue o fluxo do HTML
+- Não usamo o (T-R-B-L) com relative, pode ficar na frente dos elementos
+
+
+ABSOLUTE:
+
+- Pode ser movido pela tela
+- Quebramos o fluxo do HTML
+- (T-R-B-L) é afetado
+- Pode ser um problema ou solução
+- Ele segue o fluxo, mas se tiver a regra (T-R-B-L) é como se não fizesse parte do fluxo
+
+
+ABSOLUTE COM RELATIVE:
+
+- ABSOLUTE é ligado ao elemento com position: absolute (se não tiver, será o body)
+- Com a posição RELATIVE podemos controlar melhor o absolute
+
+
+FIXED:
+
+- FIXADO na tela
+- Mesmo com o scroll o elemento fica na mesma posição
+- O recurso é utilizado na barra de navegação FIXADO
+
+
+STICKY:
+
+- Também fica fixo na tela
+- Mas se comporta como RELATIVE na sua posição original no fluxo HTML

@@ -1,0 +1,9 @@
+FORMULÁRIO:
+
+
+- Onde se recebe os dados do usuário e envia para o backend
+- Podmeos validar dados
+- Tags mais usadas: form, label, input
+- form delimita a área do FORMULÁRIO
+- label descreve o inpur
+- input é onde inserimos os daods. Tipos de input: text, email, number..

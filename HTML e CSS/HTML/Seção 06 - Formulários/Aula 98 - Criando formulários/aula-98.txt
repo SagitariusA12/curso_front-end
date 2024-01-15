@@ -1,0 +1,33 @@
+Criando formulários:
+
+
+- FORM encaosula todos os elementos como: labels, input ou div
+- type atributo da tag input: type: text, email, number, radio
+
+
+ATRIBUTOS DA TAG FORM:
+
+- action: arquivo/página que será enviados oos dados no formulários
+- method: GET ou POST, receber ou enviar informações
+
+
+ATRIBUTO NAME DO INPUT:
+
+- Atributo do input
+- Valor é ligado a sua categoria
+- Atributo name é usado para pegar o valor na backend
+
+
+ATRUBUTO DO LABEL:
+
+
+- O "for" é atributo usado para linkar o input ao labels
+- for == name
+- for é semântico
+
+
+ENVIANDO O FORM
+
+- input com type="submit"
+- botão com tyep="submit"
+- Dados serão enviados por uma requisição HTTP
