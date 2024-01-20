@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Fundamentos</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <style>
+        .radio label,
+        .radio input{
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <!-- Input checkbox -->
+        <div>
+            <label for="optionals">Opcionais do carro:</label>
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="big_tires"> <!-- Para enviar várias opções usamos o [] -->
+                <label for="big_tires">Pneus Grandes</label>
+
+                <input type="checkbox" name="optionals[]" value="turbo_engine"> 
+                <label for="turbo_engine">Motor turbo</label>
+
+                <input type="checkbox" name="optionals[]" value="hybrid">
+                <label for="hybrid">Híbrido</label>
+            </div>
+        </div>
+
+        <!-- input data -->
+        <div>
+            <label for="birthday">Data de aniversário</label>
+            <input type="datetime-local" name="birthday" id="">
+        </div>
+
+        <!-- Enviando arquivos -->
+        <div>
+            <label for="image">Insira uma imagem:</label>
+            <input type="file" name="image" id="" accept="image/*">
+        </div>
+
+    </form>
+</body>
+</html>

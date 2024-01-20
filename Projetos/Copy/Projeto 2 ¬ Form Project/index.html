@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda seu carro</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- start navbar -->
+    <nav>
+        <p>Cadastre seu veículo para vender mais rápido!</p>
+    </nav>
+
+    <!-- end navbar -->
+
+    <!-- start form -->
+    <div id="container">
+        <div id="title">
+            <h3>Formulário</h3>
+        </div>
+
+        <div class="form">
+            <div>
+                <h1>Venda fácil seu carro!</h1>
+                <p>Descreva as características e marque os opcionais que ele possui</p>
+            </div>
+
+            <form action="">
+                <div>
+                    <label for="title">Título do anúncio <span>*</span></label>
+                    <input type="text" name="title" placeholder="Um título para anunciar seu carro">
+                </div>
+
+                <div>
+                    <label for="price">Preço <span>*</span></label>
+                    <input type="number" name="price" placeholder="Defina uma preço">
+                </div>
+
+                <div>
+                    <label for="descrição">Descrição <span>*</span></label>
+                    <textarea name="descrição"  placeholder="Aqui você coloca os detalhes do veículo, por exemplo: se ele tem algum arranhão"></textarea>
+                </div>
+
+                <div>
+                    <label for="marca">Marca <span>*</span></label>
+                    <input type="text" name="marca" placeholder="Digite a marca do veículo">
+                </div>
+
+                <div>
+                    <label for="modelo">Modelo <span>*</span></label>
+                    <input type="text" name="modelo" placeholder="Digite o modelo do veículo">
+                </div>
+
+                <div>
+                    <label for="kilometragem">Kilometragem <span>*</span></label>
+                    <input type="number" name="kilometragem" placeholder="Digite a kilometragem do veículo">
+                </div>
+
+                <div>
+                    <label for="data-de-compra">Data da compra <span>*</span></label>
+                    <input type="date" name="data-de-compra">
+                </div>
+
+                <div>
+                    <p>Tipo de câmbio: <span>*</span></p>
+                    <div class="radio">
+                        <input type="radio" name="cambio" id="manual">
+                        <label for="manual" style="margin-left: 10px;">Manual</label>
+
+                        <input style="margin-left: 20px;" type="radio" name="cambio" id="automático">
+                        <label for="automático" style="margin-left: 10px;">Automático</label>
+                    </div>
+                </div>
+
+                <div>
+                    <p>Opcionais:</p>
+                    <div class="opc">
+                        <div class="part">
+                            <div class="checkbox" style="margin-bottom: 5px;">
+                                <input type="checkbox" name="opcionais[]" id="" value="airbag">
+                                <label class="text" for="airbag" style="margin-left: 10px;">Airbag</label>
+                            </div>
+        
+                            <div class="checkbox" style="margin-bottom: 5px;">
+                                <input type="checkbox" name="opcionais[]" id="" value="alarme">
+                                <label class="text" for="alarme" style="margin-left: 10px;">Alarme</label>
+                            </div>
+        
+                            <div class="checkbox" style="margin-bottom: 5px;">
+                                <input type="checkbox" name="opcionais[]" id="" value="ar-condicionado">
+                                <label class="text" for="ar-condicionado" style="margin-left: 10px;">Ar condicionado</label>
+                            </div>
+        
+                            <div class="checkbox" style="margin-bottom: 5px;">
+                                <input type="checkbox" name="opcionais[]" id="" value="ré">
+                                <label class="text" for="ré" style="margin-left: 10px;">Câmera de ré</label>
+                            </div>
+                        </div>
+
+                        <div class="part">
+                            <div class="checkbox" style="margin-bottom: 5px;">
+                                <input type="checkbox" name="opcionais[]" id="" value="assistente">
+                                <label class="text" for="assistente" style="margin-left: 10px;">Assistente de Pista</label>
+                            </div>
+        
+                            <div class="checkbox" style="margin-bottom: 5px;">
+                                <input type="checkbox" name="opcionais[]" id="" value="keyless">
+                                <label class="text" for="keyless" style="margin-left: 10px;">Partida Keyless</label>
+                            </div>
+        
+                            <div class="checkbox" style="margin-bottom: 5px;">
+                                <input type="checkbox" name="opcionais[]" id="" value="celular">
+                                <label class="text" for="celular" style="margin-left: 10px;">Integração com Celular</label>
+                            </div>
+        
+                            <div class="checkbox" style="margin-bottom: 5px;">
+                                <input type="checkbox" name="opcionais[]" id="" value="couro">
+                                <label class="text" for="couro" style="margin-left: 10px;">Banco de Couro</label>
+                            </div>
+                        </div>
+                </div>
+
+                <div>
+                    <label for="foto">Fotos do carro: <span>*</span></label>
+                    <input type="file" name="foto" id="">
+                </div>
+                    
+
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>

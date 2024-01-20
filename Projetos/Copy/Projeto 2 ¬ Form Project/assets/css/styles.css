@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #F0EBF8;
+}
+
+nav{
+    background-color: #673AB7;
+    height: 10rem;
+    padding: 20px;
+}
+
+nav p{
+    color: #FFF;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+/* end navbar */
+#container{
+    position: absolute;
+    background-color: #FFF;
+    left: 50%;
+    top: 7rem;
+    transform: translateX(-50%);
+    width: 50%;
+    height: calc(auto + 200px);
+    margin: 0 auto;
+}
+
+#title{
+    text-align: center;
+    border-bottom: 1px solid #dfdfdf;  
+}
+
+#title h3{
+    font-size: 11px;
+    font-weight: 100;
+    display: inline-block;
+    text-transform: uppercase;
+    width: 100px;
+    color: #673ab7;
+    padding: 7px 0;
+    border-bottom: 2px solid #673ab7;
+}
+
+/* Form */
+.form{
+    padding: 30px;
+    
+}
+.form h1{
+    font-size: 1.2rem;
+    letter-spacing: .5px;
+    color: #444;
+}
+
+.form p{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 100;
+    color: #444;
+
+}
+
+/* Receber dados */
+
+form{
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.form div{
+    margin-bottom: 30px;
+}
+
+form label{
+    color: #444;
+    font-weight: 300;
+}
+
+form span{
+    color: red;
+}
+
+form input{
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 9px;
+    width: 100%;
+    padding: 10px 5px;
+}
+
+form input[type="radio"]{
+    display: inline;
+    width: auto;
+    padding: 10px 5px;
+}
+
+.text{
+    display: inline;
+}
+
+form input[type="checkbox"]{
+    display: inline-block;
+    width: auto;
+    padding: 10px 5px;
+}
+
+form input[type="file"]{
+    padding: 10px 0;
+}
+
+.radio{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+form textarea{
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 9px;
+    width: 100%;
+    padding: 10px 5px;
+}
+
+form input:focus,
+form textarea:focus{
+    outline: none;
+
+    box-shadow: -12px 10px 6px -8px rgba(0,0,0,0.47);
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.part{
+    width: 50%;
+}
+
+.opc{
+    display: flex;
+    align-items: center;
+}
+
+
+button{
+    padding: 10px 0px;
+    border: 1px solid transparent;
+    width: 100px;
+    background-color: #673AB7;
+    color: #FFF;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, border-color 0.1s ease-in-out;
+}
+
+button:hover{
+    background-color: transparent;
+    border-color: #673ab7;
+    color: #000;
+}

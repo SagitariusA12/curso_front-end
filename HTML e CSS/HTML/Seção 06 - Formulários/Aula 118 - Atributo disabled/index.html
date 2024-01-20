@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Fundamentos</title>
+        <link rel="stylesheet" href="../assets/css/styles.css">
+        <style>
+        .radio label,
+        .radio input{
+            display: inline-block;
+        }
+        </style>
+    </head>
+    <body>
+        <form>
+            <!-- Input checkbox -->
+            <div>
+                <label for="optionals">Opcionais do carro:</label>
+                <div class="radio">
+                    <input type="checkbox" name="optionals[]" value="big_tires">
+                    <!-- Para enviar várias opções usamos o [] -->
+                    <label for="big_tires">Pneus Grandes</label>
+                    <input type="checkbox" name="optionals[]" value="turbo_engine">
+                    <label for="turbo_engine">Motor turbo</label>
+                    <input type="checkbox" name="optionals[]" value="hybrid">
+                    <label for="hybrid">Híbrido</label>
+                </div>
+            </div>
+            <!-- input data -->
+            <div>
+                <label for="birthday">Data de aniversário</label>
+                <input type="datetime-local" name="birthday" id="">
+            </div>
+            <!-- Enviando arquivos -->
+            <div>
+                <label for="image">Insira uma imagem:</label>
+                <input
+                    type="file"
+                    name="image"
+                    id=""
+                    accept="image/*"
+                >
+            </div>
+            <!-- Input para números -->
+            <div>
+                <label for="salario">Quanto você ganha:</label>
+                <input type="number" name="salario" id="">
+            </div>
+            <!-- Input para emails -->
+            <div>
+                <label for="email">Informe seu email:</label>
+                <input type="email" name="email" autocomplete="off">
+            </div>
+            <!-- Atributo value -->
+            <div>
+                <label for="value">Digite algum valor:</label>
+                <input type="text" name="value" value="O meu valor é esse 2">
+            </div>
+            <!-- Atributo disable -->
+            <div>
+                <label for="t">Tente mudar</label>
+                <input type="text" disabled value="Não precisa preencher" name="t"> <!-- Não é enviado ao backend -->
+            </div>
+
+            <!--  -->
+
+        </form>
+    </body>
+</html>

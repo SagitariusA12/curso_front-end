@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <style>
+        .radio label,
+        .radio input{
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Formlários do HTML</h2>
+    
+    <!-- Formulário e atibutos -->
+    <form action="" method="">
+        <div>
+            <label for="">Nome:</label>
+            <input type="text">
+        </div>
+
+        <!-- Atributo name -->
+        <div>
+            <label for="">Email:</label>
+            <input type="email" name="email" id="" autocomplete="off">
+        </div>
+
+        <!-- Atributo do label -->
+        <div>
+            <label for="age">Idade</label>
+            <input type="text" name="age">
+        </div>
+
+        <!-- elemento select -->
+        <div>
+            <label for="estado">Selecione seu estado:</label>
+            <select name="estado" id="">
+                <option value="C">CEARÁ</option>
+                <option value="S" selected>SÃO PAULO</option>
+                <option value="R">RIO DE JANEIRO</option>
+                <option value="M">MATO-GROSSO</option>
+                <option value="A">ACRE</option>
+            </select>
+        </div>
+
+        <!-- Multipla seleções -->
+        <div>
+            <label for="items">Selecione os itens desejados:</label>
+            <select name="items" id="" multiple>
+                <option value="T">Tomate</option>
+                <option value="O">Ovo</option>
+                <option value="F">Feijão</option>
+                <option value="A">Arroz</option>
+            </select>
+        </div>
+
+
+        <!-- textarea -->
+        <div>
+            <label for="comment">Escreva o que você achou do Post:</label>
+            <textarea name="comment"></textarea>
+        </div>
+
+        <!-- Fieldset e legend -->
+        <div>
+            <fieldset>
+                <legend>Preencha as suas informações:</legend>
+                    <label for="fisrtname">Nome:</label>
+                        <input type="text" name="fisrtname" id="">   
+                    
+                    <label for="lastname">Seu sobrenome:</label>
+                        <input type="text" name="lastname" id="">   
+            </fieldset>
+        </div>
+
+        <!-- Datalist -->
+        <div>
+            <label for="flavor">Escolha o sabor:</label>
+            <input type="text" name="flavor" list="flavors">
+
+            <datalist id="flavors">
+                <option value="Morango">Morango</option>
+                <option value="Uva">Uva</option>
+                <option value="Cajá">Cajá</option>
+            </datalist>
+        </div>
+
+
+        <!-- Input para senhas -->
+        <div>
+            <label for="password">Informe seu password:</label>
+            <input style="-webkit-text-security: circle" type="password" name="password" id="">
+        </div>
+
+        
+
+        <!-- Limpandos os formulários -->
+        <div>
+            <button type="reset">Resetar campos</button>
+            <input type="reset" value="RESETAR CAMPOS com input">
+        </div>
+
+
+        <!-- Input radio -->
+        <div>
+            <label for="car_model">Escolha um carro:</label>
+            <div class="radio">
+                <input type="radio" name="car_model" id="" value="bmw">
+                <label for="bmw">BMW</label>
+
+
+                <input type="radio" name="car_model" id="" value="ferrari">
+                <label for="ferrari">Ferrari</label>
+
+
+                <input type="radio" name="car_model" id="" value="jeep">
+                <label for="jeep">Jeep</label>
+            </div>
+        </div>
+        <!-- Envia de form -->
+        <br><br><br>
+        <div>
+            <button type="submit">Enviar</button>
+            <input type="submit" value="Cadastrar">
+        </div>
+    </form>
+</body>
+</html>
