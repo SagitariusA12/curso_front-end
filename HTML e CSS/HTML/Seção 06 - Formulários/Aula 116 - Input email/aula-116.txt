@@ -1,0 +1,5 @@
+Input email
+
+
+- Input para email
+- Verificações mínimas como o "@'

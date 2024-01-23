@@ -1,0 +1,6 @@
+Input radio
+
+
+- Usado para selecionar várias opções
+- Não podemos escolher dois
+- Quando for input do tipo rádio FOR == VALUE

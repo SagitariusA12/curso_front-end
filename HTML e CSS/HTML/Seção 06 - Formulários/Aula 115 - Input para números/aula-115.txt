@@ -1,0 +1,5 @@
+Input number
+
+
+- Quando é apenas números
+- Tem setas, mas pode ser removido

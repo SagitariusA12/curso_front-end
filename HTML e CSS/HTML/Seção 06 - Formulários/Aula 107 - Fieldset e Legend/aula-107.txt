@@ -1,0 +1,6 @@
+Fieldset e Legend:
+
+
+- Fieldset para agrupar inputs
+- Legend descreve os inputs
+- Conectar inputs que tenham sentido

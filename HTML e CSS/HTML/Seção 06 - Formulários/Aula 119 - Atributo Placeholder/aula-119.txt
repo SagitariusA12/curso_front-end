@@ -1,0 +1,5 @@
+Placeholder
+
+
+- Parece com o value e preenche o input, mas ao inserir os dados o valor desaparece
+- Adicionar dicas

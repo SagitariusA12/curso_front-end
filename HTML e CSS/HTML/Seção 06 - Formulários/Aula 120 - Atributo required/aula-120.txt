@@ -1,0 +1,7 @@
+Required
+
+
+- Torna o campo obrigatório
+- Não envia caso não preencha
+- A página solta um aviso
+- Validação HTML

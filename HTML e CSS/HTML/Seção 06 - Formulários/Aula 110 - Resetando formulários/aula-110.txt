@@ -1,0 +1,4 @@
+Resetando o form
+
+
+- Botão do type=reset ou input do type=reset

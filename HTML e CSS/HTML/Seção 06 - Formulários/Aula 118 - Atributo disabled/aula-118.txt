@@ -1,0 +1,5 @@
+Disabled
+
+
+- Usado para desabilitar o input e não receber o valor no backend
+- Quando não queremos que o usuário preencha o input

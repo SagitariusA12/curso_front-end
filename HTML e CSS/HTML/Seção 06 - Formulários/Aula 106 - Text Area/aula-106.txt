@@ -1,0 +1,7 @@
+TEXTAREA:
+
+
+- Semelhante ao input do tipo texto
+- Para textos maiores
+- Estilizar via CSS
+

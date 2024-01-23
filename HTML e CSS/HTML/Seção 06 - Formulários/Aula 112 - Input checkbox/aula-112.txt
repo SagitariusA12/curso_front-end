@@ -1,0 +1,6 @@
+Input checkbot
+
+
+- Igual ao input do type=radio, mas permite várias opções
+- Nome com colchetes para permitir várias opções
+- FOR == VALUE

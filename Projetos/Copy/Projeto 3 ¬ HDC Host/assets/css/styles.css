@@ -37,8 +37,138 @@ nav ul li{
     font-size: 11px;
     font-weight: 300;
     transition: .5s;
- 
 }
+
+#menu{
+    display: none;
+    cursor: pointer;
+    width: 40px;
+    position: relative;
+
+}
+
+#menu div{
+    width: 100%;
+    height: 3px;
+    background-color: #FFF;
+}
+
+#menu div:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.down{
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: up-down 0.5s ease-in-out 1; 
+}
+
+@keyframes up-down {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(45deg);
+    }
+}
+
+.middle{
+    animation: moveRight 0.5s ease-in-out 1; 
+}
+
+@keyframes moveRight {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-20px);
+    }
+}
+
+.up{
+    position: absolute;
+    animation: down-up 0.5s ease-in-out 1; 
+}
+
+@keyframes down-up {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-45deg);
+    }
+}
+
+#menu-banner{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: -700px;
+    width: 100%;
+    height: 700px;
+    background-color: #232A31;
+    z-index: 10000;
+}
+
+.menu-banner-anm{
+    animation: menu-bottom 1s ease-in-out 1;
+}
+@keyframes menu-bottom {
+    0%{
+        top: -700px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+
+.menu-banner-anm-remove{
+    animation: menu-bottom-rmv 1s ease-in-out 1;
+}
+@keyframes menu-bottom-rmv {
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: -700px;
+    }
+}
+
+#sub-menu{
+    position: relative;
+    width: 100%;
+}
+
+#sub-menu li{
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    padding: 20px;
+    margin: 1%;
+}
+
+#sub-menu li:last-child{
+    text-align: center;
+    margin: 0 auto;
+    width: 150px;
+}
+
+#sub-menu li a{
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+#sub-menu li:hover:not(:last-child){
+    background-color: #354657;
+}
+
+
+
 
 
 .link{
@@ -198,6 +328,7 @@ nav ul li{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #value-plans div{
@@ -369,7 +500,7 @@ nav ul li{
 
 textarea{
     margin-top: 20px;
-    width: 380px;
+    width: 50%;
     height: 150px;
     border: 1px solid #ccc;
     padding: 10px 20px;
@@ -400,3 +531,30 @@ footer > p{
     font-size: 12;
     font-weight: bold;
 }
+
+
+/* Responsividade */
+@media screen and (max-width: 557px){
+    #ceo{
+        display: block;
+    }
+
+    #ceo div{
+        width: 100%;
+    }
+
+    /* navbar */
+    nav ul{
+        display: none;
+    }
+
+    #menu{
+        display: block;
+        cursor: pointer;
+        width: 40px;
+        position: absolute;
+        z-index: 1000000;
+        right: 10px;
+}
+}
+

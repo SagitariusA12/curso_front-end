@@ -1,0 +1,5 @@
+Datalist:
+
+
+- É como se fosse um select com autocomplete
+- Podemos preencher com nossos dados ou usar as sugestões
